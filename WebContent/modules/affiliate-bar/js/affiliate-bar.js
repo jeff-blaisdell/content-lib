@@ -57,8 +57,9 @@ var JOSTENS = ( function( JOSTENS, $, Handlebars ) {
          * Affiliate bar initializer.
          */
         props.affiliateBar = function() {
-            var tmpl = Handlebars.templates['modules/affiliate-bar/templates/affiliateBar']
-                , $container = $( 'div[data-role="affiliate-bar"]')
+
+            var tmpl = Handlebars.templates['affiliate-bar']
+                , $container = $( 'div[data-jos-role="affiliate-bar"]')
                 , model = {affiliateName: "Example Affiliate"};
 
             if ( tmpl && $container.size() === 1 ) {
@@ -77,7 +78,7 @@ var JOSTENS = ( function( JOSTENS, $, Handlebars ) {
          * Triggers the display of a jQuery Mobile based affiliation dialog.
          */
         props.showSearchDialog = function() {
-            var tmpl = Handlebars.templates['modules/affiliate-bar/templates/affiliateSearch'];
+            var tmpl = Handlebars.templates['affiliate-search'];
 
             if ( !$searchDialog ) { // page does not currently exist in DOM
                 $( 'body').append( tmpl() );
