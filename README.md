@@ -1,8 +1,8 @@
 # Content Library
+#### used in conjunction with product-designer.
 ---
 ### Description
 An example static web resource project to demonstrate the use of modern front-end development tools such as Grunt.js, LESS, and Require.js.
-Used in conjunction with product-designer.
 ---
 ### Node Supervisor
 For quicker development install node-supervisor.  It will monitor server-side javascript and auto reload.
