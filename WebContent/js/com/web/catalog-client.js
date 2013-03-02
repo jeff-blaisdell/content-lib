@@ -1,5 +1,5 @@
 var COM = ( function( COM, $) {
-    var CatalogUtils = COM.CatalogUtils = function() {
+    var CatalogClient = COM.CatalogClient = function() {
         var props = {};
 
         props.findProduct = function(params, callback) {
@@ -10,14 +10,14 @@ var COM = ( function( COM, $) {
           $.getJSON(url + '?callback=?', null, callback);
         };
 
-        props.CatalogUtils = function() {
+        props.CatalogClient = function() {
 
         };
 
         return props;
     }();
 
-    CatalogUtils.CatalogUtils();
+    CatalogClient.CatalogClient();
 
     return COM;
 }( COM || {}, jQuery) );
