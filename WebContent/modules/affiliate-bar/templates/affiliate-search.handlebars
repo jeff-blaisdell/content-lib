@@ -1,0 +1,31 @@
+<div id="affiliate-search" data-role="dialog" data-theme="e">
+    <div data-role="header">
+        <h1>Find Your School or Group To Shop For Your Custom Products</h1>
+    </div>
+    <div  data-role="content">
+
+        <form id="affiliate-search-form" data-ajax="false" >
+            <label for="search-basic" style="font-weight: bold;" class="ui-hidden-accessible">Find Your School or Group To Shop For Your Custom Products</label>
+            <input type="search" name="search" id="affiliate-search" placeholder="School Name, City or State" data-theme="c" />
+            <input type="submit" data-ajax="false" name="search-go" data-theme="a" value="Search"/>
+        </form>
+
+        <div id="searchResults">
+            <ul data-role="listview" id="affiliateList" data-inset="true">
+                <li><a href="#" class="affiliateItem">Test School</a></li>
+            </ul>
+        </div>
+
+        <a href="" data-role="button" style="display:none;" id="searchAffiliateShowMoreBtn" data-theme="a">Show more..</a>
+        <div id="noResultsFound" style="display:none;margin-top:10px;">
+            <p>No results found.</p>
+            <p>Suggestions:</p>
+            <ul>
+                <li>Check your spelling.</li>
+                <li>Use fewer words.</li>
+                <li>Call 1-800-854-7464 for assistance.</li>
+            </ul>
+        </div>
+        <p id="searchAffiliateDisplayCount" style="text-align:right;"></p>
+    </div>
+</div>

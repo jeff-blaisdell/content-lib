@@ -1,0 +1,38 @@
+.affiliate-bar {
+    font-size: .80em;
+    text-shadow: none;
+    font-style: italic;
+}
+
+.affiliate-bar .affiliated-content {
+    display: none;
+}
+
+.affiliate-controls {
+    float: right;
+    border-radius: 10px;
+}
+
+.affiliate-placeholder {
+    font-size: .85em;
+    white-space: normal;
+}
+
+.affiliate-bar.is-affiliated .unaffiliated-content {
+    display:none;
+}
+
+.affiliate-bar.is-affiliated .affiliated-content {
+    display: inherit;
+}
+
+.affiliate-logo {
+    display: none;
+}
+
+@media(min-width: 650px) {
+    .affiliate-logo {
+        display: initial;
+        display: -moz-initial;
+    }
+}
