@@ -1,5 +1,5 @@
-var JOSTENS = ( function( JOSTENS, $, Handlebars ) {
-    var affiliateBar = JOSTENS.affiliateBar = function() {
+var COM = ( function( COM, $, Handlebars ) {
+    var affiliateBar = COM.affiliateBar = function() {
         var props = {},
             $searchDialog;
 
@@ -95,5 +95,5 @@ var JOSTENS = ( function( JOSTENS, $, Handlebars ) {
 
     affiliateBar.affiliateBar();
 
-    return JOSTENS;
-}( JOSTENS || {}, jQuery, Handlebars ) );
+    return COM;
+}( COM || {}, jQuery, Handlebars ) );
